@@ -1,0 +1,13 @@
+Partidos del Mundial de Brasil 2014
+<br/>
+<br/>
+{% for partido in partidos %}
+
+
+ {{ partido.local }} - {{ partido.visitante }}
+
+{{ partido.fecha }}
+<br/>
+<br/>
+ {% endfor %}
+
